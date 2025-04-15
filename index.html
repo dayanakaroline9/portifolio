@@ -1,57 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Dayana Karoline</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Dayana Karoline</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home">
-        <h2>Bem-vindo ao meu portfólio</h2>
-        <p>Desenvolvedora Front-end com experiência em Vue.js e React.</p>
-    </section>
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Sou Dayana Karoline, desenvolvedora de software com experiência desde 2016. Minha trajetória no desenvolvimento começou no ensino médio, onde cursei Técnico em Informática integrado ao IFRN. Desde então, venho aprimorando minhas habilidades e atuando na criação de sites, e-commerces e sistemas empresariais.</p>
-        <p>Me formei em Bacharelado de Ciências e Tecnologia com ênfase em Tecnologia da Computação, o que me proporcionou uma base sólida para o desenvolvimento de software. Tenho conhecimento avançado em Vue.js e React, e sou apaixonada por transformar ideias em soluções digitais eficientes.</p>
-    </section>
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <div class="projeto">
-            <img src="img/cobranca.png" alt="Sistema de Cobrança Online">
-            <p><strong>Sistema de Cobrança Online</strong>: Plataforma que facilita a gestão e processamento de pagamentos de forma automatizada.</p>
-        </div>
-        <div class="projeto">
-            <img src="img/odontologico.png" alt="Recorrência de Plano Odontológico">
-            <p><strong>Recorrência de Plano Odontológico</strong>: Sistema para gerenciamento e automação de planos odontológicos com pagamentos recorrentes.</p>
-        </div>
-        <div class="projeto">
-            <img src="img/disparos.png" alt="Sistema de Compra Online de Disparos em Massa">
-            <p><strong>Sistema de Compra Online de Disparos em Massa</strong>: Plataforma onde clientes podem adquirir pacotes de envios automatizados de mensagens.</p>
-        </div>
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato pelo e-mail: <a href="mailto:contato@dayanak.dev">contato@dayanak.dev</a></p>
-        <p>Ou me encontre nas redes sociais:</p>
-        <ul>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
-    </section>
-    <script src="script.js"></script>
-</body>
+<html>
+  <head>
+    <title><%= productName %></title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="<%= productDescription %>">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>">
+
+    <link rel="icon" type="image/png" sizes="128x128" href="icons/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+  </head>
+  <body>
+    <!-- quasar:entry-point -->
+  </body>
 </html>
